@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+}
+.global-msg{
+    background:rgb(0, 0, 147);
+    color: white;
+    line-height: 32px;
+    
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+/* top menu section */
+.nav-bar{
+    background: lightblue;
+    
+
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    
+}
+.menu ul li{
+    margin-left: 10px;
+}
+/* hero section*/
+.hero{
+    min-height: 80vh;
+    background: url(img/nature.jpg) no-repeat center center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{  
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.589);
+    width: 350px;
+    backdrop-filter: blur(1px);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.main{
+    margin-top: 32px;
+    display: flex;
+
+
+}
+.main-content{
+    background-color: rgb(158, 174, 158);
+    width: 66%;
+    margin-right: 2rem;
+}
+
+article{
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.art-img{
+    width: 500px;
+    margin: 1rem;
+}
+button{
+    float: right;
+    margin-right: 1rem;
+}
+
+
+.main-links{
+    font-style: oblique;
+    size: 50%;
+}
+
+.read-by-continent, 
+.read-by-date{
+    background: lightblue;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.recommendation{
+    background:rgba(119, 136, 153, 0.441);
+    padding: 1rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.card{
+    width: 300px;
+    background: white;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.066);
+    min-height: 350px;
+    margin: 10px;
+}
+.card img{
+    border-radius: 5px 5px 0 0x;
+}
+
+.card button{
+    width: 100%;
+    background: greenyellow;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card button:hover{
+    cursor: pointer;
+    background:green;
+    font-size: 20px;
+}
+
+.subscription{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+
+}
+
+.subscription button{
+    background: lightblue;
+}
+/* footer section    */
+footer{
+    background: black;
+    padding: 50px 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+/* media quaries */
+
+@media (max-width: 768px){
+    .global-msg{
+        background:rgb(3, 228, 70);
+        color: white;
+        line-height: 32px;
+        font-size: 1rem;
+    }    
+
+}
